@@ -24,7 +24,7 @@ class Service {
 
     changeNote(note:INote, id:number): INote[]{
         this.notes[id]=note
-        alert(id)
+        //alert(id)
         return [...this.notes]
     }
 }
