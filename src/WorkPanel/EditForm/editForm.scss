@@ -1,0 +1,18 @@
+.editForm{
+    table{
+        width: 100%;
+        td{
+            display: flex;
+            align-content: flex-start;
+        }
+    }
+    &__btn {        
+        border: 1px;
+        height: 40px;
+        background: #D3D3D3;
+        margin-top: 10px;
+    }
+    &__input {
+        width: 100%;
+    }
+}

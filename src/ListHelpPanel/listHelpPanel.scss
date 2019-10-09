@@ -1,0 +1,22 @@
+.listHelpPanel {  
+    div {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    height: 100%;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding: 5px;
+    cursor: default;
+    }
+
+    &__btn {
+      height: 40px;
+      border: 1px;
+      font-size: 1.2em;
+      margin: 5px;
+    }
+    
+    
+}

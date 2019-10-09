@@ -1,0 +1,44 @@
+.workPanel{
+    display: flex;
+    flex-direction: column;    
+    border: 1px solid #000;
+    margin-left: 20px;
+    padding: 15px 30px 25px 30px;
+    align-content: stretch; 
+    height: 400px;
+    min-width: 400px;
+    max-width: 700px;
+
+    &__btnPanel{
+      display: flex;
+      flex-flow: row nowrap;
+      //align-items: stretch;  
+      //justify-content: center;
+      align-items: stretch;      
+      height: 50px;
+      background: #EDEAE9;
+      margin-bottom: 10px;
+
+      
+    }
+    &__btn{
+      border: 1px;
+      margin: 5px 0px 5px 10px;
+      background: #D3D3D3
+    }
+    &__name {
+      font-size: 1.4em;
+    }
+    &__description{
+      font-style: italic;
+    }
+    &__changed{
+      text-align: right;
+      font-style: italic;
+      font-size: 0.9em;
+      margin-top: 5px;
+    }
+    
+}
+
+
